@@ -19,6 +19,13 @@ home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
+[Languages.ar]
+contentDir = "content/arabic"
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+home = "بداية"
+languageCode = "ar-ar"
+languageName = "Ar"
+weight = 3
 [[menu.footer]]
 URL = "about"
 name = "About"
