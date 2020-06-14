@@ -20,6 +20,13 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: exampleSite/content/arabic/blog
+  label: Post (ar)
+  create: documents
+  match: "**/*"
+  templates:
+  - post
 - type: heading
   label: Author
 - type: directory
@@ -32,6 +39,13 @@ sections:
 - type: directory
   path: exampleSite/content/french/author
   label: Author (fr)
+  create: documents
+  match: "**/*"
+  templates:
+  - author
+- type: directory
+  path: exampleSite/content/arabic/author
+  label: Author (ar)
   create: documents
   match: "**/*"
   templates:
@@ -52,6 +66,13 @@ sections:
   match: "**/*"
   templates:
   - project
+- type: directory
+  path: exampleSite/content/arabic/project
+  label: Project (ar)
+  create: documents
+  match: "**/*"
+  templates:
+  - project
 - type: heading
   label: Others Pages
 - type: directory
@@ -65,6 +86,11 @@ sections:
   create: none
   match: "*"
 - type: directory
+  path: exampleSite/content/arabic/about
+  label: About (ar)
+  create: none
+  match: "*"
+- type: directory
   path: exampleSite/content/english/service
   label: Service (en)
   create: none
@@ -72,6 +98,11 @@ sections:
 - type: directory
   path: exampleSite/content/french/service
   label: Service (fr)
+  create: none
+  match: "*"
+- type: directory
+  path: exampleSite/content/arabic/service
+  label: Service (ar)
   create: none
   match: "*"
 - type: directory
@@ -85,6 +116,11 @@ sections:
   create: none
   match: "*"
 - type: directory
+  path: exampleSite/content/arabic/pricing
+  label: Pricing (ar)
+  create: none
+  match: "*"
+- type: directory
   path: exampleSite/content/english/faq
   label: FAQ (en)
   create: none
@@ -92,6 +128,11 @@ sections:
 - type: directory
   path: exampleSite/content/french/faq
   label: FAQ (fr)
+  create: none
+  match: "*"
+- type: directory
+  path: exampleSite/content/arabic/faq
+  label: FAQ (ar)
   create: none
   match: "*"
 - type: directory
@@ -105,6 +146,11 @@ sections:
   create: none
   match: "*"
 - type: directory
+  path: exampleSite/content/arabic/contact
+  label: Contact (ar)
+  create: none
+  match: "*"
+- type: directory
   path: exampleSite/content/english/pages
   label: Created Pages (en)
   create: documents
@@ -114,6 +160,13 @@ sections:
 - type: directory
   path: exampleSite/content/french/pages
   label: Created Pages (fr)
+  create: all
+  match: "**/*"
+  templates:
+  - new-page
+- type: directory
+  path: exampleSite/content/arabic/pages
+  label: Created Pages (ar)
   create: all
   match: "**/*"
   templates:
@@ -132,6 +185,13 @@ sections:
   match: "**/*"
   templates:
   - new-page
+- type: directory
+  path: exampleSite/content/arabic
+  label: All Pages (ar)
+  create: all
+  match: "**/*"
+  templates:
+  - new-page
 - type: heading
   label: Data
 - type: directory
@@ -142,6 +202,11 @@ sections:
 - type: directory
   path: exampleSite/data/fr
   label: Data (fr)
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/data/ar
+  label: Data (ar)
   create: all
   match: "**/*"
 - type: directory
