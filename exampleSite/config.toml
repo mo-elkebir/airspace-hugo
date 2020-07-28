@@ -1,10 +1,17 @@
-baseURL = "https://aitmhamed.netlify.app"
+baseURL = "https://aitmhamed.org/"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
-title = "Airspace | Creative Agency Hugo Template"
+title = "Solidarité Aït M'hamed"
+[Languages.ar]
+contentDir = "content/arabic"
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+home = "بداية"
+languageCode = "ar-ar"
+languageName = "Ar"
+weight = 3
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
@@ -19,13 +26,6 @@ home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
-[Languages.ar]
-contentDir = "content/arabic"
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
-home = "بداية"
-languageCode = "ar-ar"
-languageName = "Ar"
-weight = 3
 [[menu.footer]]
 URL = "about"
 name = "About"
