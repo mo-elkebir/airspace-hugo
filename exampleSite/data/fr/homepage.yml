@@ -4,8 +4,9 @@ banner:
   bg_image: images/ait-mhamed.jpg
   bg_overlay: true
   title: Solidarite Aït M'hamed
-  content: We love the Web and the work we do.We work closely with our clients to
-    deliver  the best possible solutions for their needs
+  content: |-
+    السلام عليكم ورحمة الله تعالى وبركاته الإخوان، مرحبا بالجميع. تم تكوين هذه المجموعة لمناقشة مسار  آيت امحمد داخل  الدوار و بالطبع أيضا خارجه.
+    الله يوفقنا لما فيه الخير والصلاح بإذن الله
   button:
     enable: true
     label: Discover Our Project
